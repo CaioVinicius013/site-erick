@@ -1,0 +1,111 @@
+
+
+
+
+/*.fundo {
+margin: 0;
+background-image: url('hornetecb1000\ \(1\).jpg');
+background-size: cover;
+background-position: center;
+width: 100%;
+height: 100vh;
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;*/
+
+
+/*.fundo::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* 0.4 = transparência */
+
+/*#galeria{
+    
+    padding: 40px;
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+    background: #615c5c;
+}
+/*#galeria img{
+    width: 100%;
+    height: 200px;
+   
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+   
+    transition: transform .3s;
+}*/
+/*#galeria img:hover{
+    
+    transform : scale(1.05);
+}*/
+
+html,body{
+    margin:0;
+    padding: 0;
+    overflow-x: hidden;
+}
+#localizacao{
+    display: flex;
+    width: 100%;
+    max-width: 100%;
+    justify-content: center;
+    
+}
+
+
+#localizacao iframe {
+    width: 100%;
+    height: 300px;
+    border:0;
+}
+
+body {
+    
+    margin: 0;
+    padding: 20px;
+    background: #f0eeee;
+    
+}
+
+.galeria{
+    display: flex;
+    gap: 20px;
+    overflow-x:auto;
+    scroll-snap-type: x mandatory;/* ativa encaixe */
+    padding: 0 20px;  
+}
+
+.galeria img {
+    width: 100%;/* ocupa 100% da tela */
+    max-width: 600px;
+    height: auto;
+    flex-shrink: 0; /* impede encolher */
+    border-radius: 10px;
+    scroll-snap-align: center; /* encaixa no centro */
+    scroll-snap-type: center;
+}   
+@media (min-width : 1024px){
+    .galeria img {
+        width: 50%;
+    }
+}
+/*.galeria img:hover  {
+    transform: scale(1.05);
+    
+    
+    }*/
+
+
+
+
+
+
