@@ -52,6 +52,42 @@ align-items: center;
     transform : scale(1.05);
 }*/
 
+
+
+
+.video{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    
+
+}
+video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    padding: 0px;
+    border-radius: 10px;
+}
+@media (min-width : 1024px){
+.video{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: 15px;
+
+}
+video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+}
 .logo{
    display: flex;
    justify-content: center;
@@ -105,7 +141,7 @@ body {
     
     margin: 0;
     padding: 20px;
-    background: #f0eeee;
+    background-color: blanchedalmond;
     
 }
 
